@@ -7,6 +7,29 @@ const pageTitle = "Home Page";
 
 <BaseLayout pageTitle={pageTitle}>
 	<h2>My awesome blog subtitle</h2>
-	<Greeting messages={["Hi", "Hello", "Howdy", "Hey there!"]} />
-	<Greeting client:visible messages={["Hej", "Hallo", "Hola", "Habari"]} />
+	<Greeting
+		client:visible
+		messages={[
+			"Hello", // English
+			"Hola", // Spanish
+			"Bonjour", // French
+			"Hallo", // German
+			"Ciao", // Italian
+			"Olá", // Portuguese
+			"Привет", // Russian
+			"こんにちは", // Japanese
+			"你好", // Chinese (Mandarin)
+			"안녕하세요", // Korean
+			"مرحبا", // Arabic
+			"नमस्ते", // Hindi
+			"สวัสดี", // Thai
+			"Xin chào", // Vietnamese
+			"Hej", // Swedish
+			"Hei", // Norwegian
+			"Hallo", // Dutch
+			"Salam", // Persian
+			"Γειά σου", // Greek
+			"Merhaba", // Turkish
+		]}
+	/>
 </BaseLayout>

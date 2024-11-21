@@ -90,3 +90,17 @@ html.dark {
 .dark .nav-links a {
   color: #fff;
 }
+
+button {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #4c1d95;
+  text-decoration: none;
+  border: none; /* Remove default border */
+  border-radius: 0; /* Ensure corners are not rounded */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #3b0f7a; /* Darken background color on hover */
+}
